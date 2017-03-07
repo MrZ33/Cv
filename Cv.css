@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Quicksand-Regular';
+  src: url('Quicksand-Regular.otf');
+}
+@font-face {
+  font-family: 'Quicksand-Light';
+  src: url('Quicksand-Light.otf');
+}
+
+body
+{
+    width: 70%;
+    font-family: 'Quicksand-Regular' ,sans-serif;
+    margin: 0px auto;
+    color: black;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid #000000;
+}
+
+header
+{
+    width: 100%;
+    top: 0px;
+    margin-left: 50px;
+}
+
+h1{
+  font-size: 30pt;
+  margin-bottom: 100px;
+  text-align: center;
+  margin-right: 100px;
+}
+
+h2
+{
+    font-family: 'Quicksand-Light';
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 2em;
+    color: #005060
+}
+
+hr
+{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 50%;
+}
+
+footer {
+  height: 400px;
+  background-color: #505060;
+}
+
+#info {
+  font-size: 30pt;
+  margin-right: 100px;
+}
+
+p {
+  font-family: 'Quicksand-Regular'
+  color: black;
+  font-size: 15pt;
+  text-align: center;
+
+}
